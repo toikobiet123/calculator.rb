@@ -22,9 +22,9 @@ p operator
             puts "Mời bạn nhập số thứ hai: "
             so2 = gets.chomp.to_i
             result1 = so1 - so2
-        end
+        
             puts "Kết quả của phép - là: " + result1.to_s
-       
+        end
         if operator == 2
             puts "Sử dụng phép nhân"
             puts "Mời bạn nhập số thứ nhất: "
